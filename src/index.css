@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mycon {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.mainimage {
+  background-image: url(./components/main/images/Container.svg);
+}
+
+.mainimage2 {
+  background-image: url(./components/main/images/mainimage2.svg);
+}
+
+.showcase {
+  height: calc(100vh - 162px);
+}
+
